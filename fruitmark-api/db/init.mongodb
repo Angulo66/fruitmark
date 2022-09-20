@@ -1,0 +1,44 @@
+
+db.city.insertMany( [
+   { _id: "Paris" },
+   { _id: "Niza" },
+   { _id: "Dijon" },
+    { _id: "Lila" },
+    { _id: "Marsela" }
+])
+
+db.fruit.insertMany( [
+   { _id: "Apple" },
+   { _id: "Banana" },
+   { _id: "Cherry" },
+    { _id: "Orange" },
+    { _id: "Strawberry" }
+])
+
+db.city_fruits.insertMany( [
+  { city: "Paris", fruit: "Apple", quantity: 10 },
+  { city: "Paris", fruit: "Banana", quantity: 20 },
+  { city: "Paris", fruit: "Cherry", quantity: 30 },
+  { city: "Paris", fruit: "Orange", quantity: 40 },
+  { city: "Paris", fruit: "Strawberry", quantity: 50 },
+  { city: "Niza", fruit: "Apple", quantity: 60 },
+  { city: "Niza", fruit: "Banana", quantity: 70 },
+  { city: "Niza", fruit: "Cherry", quantity: 80 },
+  { city: "Niza", fruit: "Orange", quantity: 90 },
+  { city: "Niza", fruit: "Strawberry", quantity: 100 },
+  { city: "Dijon", fruit: "Apple", quantity: 110 },
+  { city: "Dijon", fruit: "Banana", quantity: 120 },
+  { city: "Dijon", fruit: "Cherry", quantity: 130 },
+  { city: "Dijon", fruit: "Orange", quantity: 140 },
+  { city: "Dijon", fruit: "Strawberry", quantity: 150 },
+  { city: "Lila", fruit: "Apple", quantity: 160 },
+  { city: "Lila", fruit: "Banana", quantity: 170 },
+  { city: "Lila", fruit: "Cherry", quantity: 180 },
+  { city: "Lila", fruit: "Orange", quantity: 190 },
+  { city: "Lila", fruit: "Strawberry", quantity: 200 },
+  { city: "Marsela", fruit: "Apple", quantity: 210 },
+  { city: "Marsela", fruit: "Banana", quantity: 220 },
+  { city: "Marsela", fruit: "Cherry", quantity: 230 },
+  { city: "Marsela", fruit: "Orange", quantity: 240 },
+  { city: "Marsela", fruit: "Strawberry", quantity: 250 }
+])
